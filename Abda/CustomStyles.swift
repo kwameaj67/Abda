@@ -9,10 +9,10 @@ import Foundation
 import UIKit
 
 func roundButtonCorners(button: UIButton){
-    button.layer.cornerRadius = button.layer.frame.height / 2
+    button.layer.cornerRadius = button.layer.frame.height / 3.5
 }
 
 func roundViewCorners(view: UIView){
-    view.layer.cornerRadius = view.layer.frame.height / 2
+    view.layer.cornerRadius = view.layer.frame.height / 3.5
 }
 

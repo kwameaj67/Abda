@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         navigationController?.setNavigationBarHidden(false, animated: animated)
     }
     func buttonStyles(){
-        button.layer.cornerRadius = button.layer.frame.height / 2
+       roundButtonCorners(button: button)
     }
 
     @IBAction func goToLogin(_ sender: Any) {

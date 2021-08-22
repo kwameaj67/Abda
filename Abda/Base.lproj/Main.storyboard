@@ -23,10 +23,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="k0V-96-ej7">
-                                        <rect key="frame" x="20" y="530" width="374" height="162"/>
+                                        <rect key="frame" x="50" y="530" width="314" height="162"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="3kW-0r-OvD">
-                                                <rect key="frame" x="138" y="0.0" width="98" height="50"/>
+                                                <rect key="frame" x="108" y="0.0" width="98" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="abda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vd8-q1-EzE">
                                                         <rect key="frame" x="0.0" y="0.0" width="86" height="50"/>
@@ -46,7 +46,7 @@
                                                 </constraints>
                                             </stackView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UvU-CE-0cE">
-                                                <rect key="frame" x="11.5" y="70" width="351" height="92"/>
+                                                <rect key="frame" x="0.5" y="70" width="313.5" height="92"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="92" id="R4m-40-kXS"/>
                                                 </constraints>
@@ -83,10 +83,10 @@
                                 <constraints>
                                     <constraint firstItem="ng0-pb-nHJ" firstAttribute="leading" secondItem="yTt-VK-DHR" secondAttribute="leading" constant="20" id="2Rf-Hh-wch"/>
                                     <constraint firstAttribute="bottom" secondItem="ng0-pb-nHJ" secondAttribute="bottom" constant="80" id="IHN-aN-y1G"/>
-                                    <constraint firstItem="k0V-96-ej7" firstAttribute="leading" secondItem="yTt-VK-DHR" secondAttribute="leading" constant="20" id="SDZ-jr-tcW"/>
+                                    <constraint firstItem="k0V-96-ej7" firstAttribute="leading" secondItem="yTt-VK-DHR" secondAttribute="leading" constant="50" id="SDZ-jr-tcW"/>
                                     <constraint firstItem="ng0-pb-nHJ" firstAttribute="top" secondItem="k0V-96-ej7" secondAttribute="bottom" constant="50" id="Z8v-rT-Rg2"/>
                                     <constraint firstAttribute="trailing" secondItem="ng0-pb-nHJ" secondAttribute="trailing" constant="20" id="sHH-lO-F5c"/>
-                                    <constraint firstAttribute="trailing" secondItem="k0V-96-ej7" secondAttribute="trailing" constant="20" id="tBV-1b-svO"/>
+                                    <constraint firstAttribute="trailing" secondItem="k0V-96-ej7" secondAttribute="trailing" constant="50" id="tBV-1b-svO"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -221,7 +221,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G1C-x5-hhJ">
                                         <rect key="frame" x="175.5" y="0.0" width="59.5" height="35"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="16"/>
-                                        <state key="normal" title="Sign up"/>
+                                        <state key="normal" title="Sign up">
+                                            <color key="titleColor" red="0.28664284940000001" green="0.48408025500000001" blue="0.83960217240000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="gotoSignUp:" destination="1Ys-Vg-Ev5" eventType="touchUpInside" id="2FG-y7-5w9"/>
                                             <segue destination="fEj-N1-CZs" kind="show" id="nQO-eQ-lfM"/>
@@ -356,7 +358,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pbj-gj-HsH">
                                         <rect key="frame" x="133" y="0.0" width="57" height="34"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="16"/>
-                                        <state key="normal" title="Sign In"/>
+                                        <state key="normal" title="Sign In">
+                                            <color key="titleColor" red="0.28664284940000001" green="0.48408025500000001" blue="0.83960217240000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="goToLogin:" destination="fEj-N1-CZs" eventType="touchUpInside" id="1jl-1i-QOD"/>
                                         </connections>
